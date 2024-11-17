@@ -2,7 +2,7 @@
 ## Introduction to Product Development
 ### Tzipporah Gordon
 
-This program fills all the requirmets for Tzipporah's homework!
+This program fills all the requirmets for Tzipporah's homework! and has another branch!
 
 - item 1
 - item 2
