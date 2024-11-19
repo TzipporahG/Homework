@@ -1,0 +1,23 @@
+div{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.class1{
+    color: cornflowerblue;
+}
+
+.class2{
+    border: dashed crimson;
+    padding: .5%;
+    margin-right: 80%;
+    margin-top: 1%;
+}
+
+.class2:hover{
+    color: cornflowerblue;
+    font-size: larger;
+}
+.class3{
+    color: crimson;
+    text-shadow: 1px 1px 2px cornflowerblue;
+}
