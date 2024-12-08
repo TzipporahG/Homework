@@ -9,6 +9,7 @@ This program fills all the requirmets for Tzipporah's homework!
 - item 3
 - item 4
 - item 5
+- item 6!
 
 [^] this is a ___footnote___
 
