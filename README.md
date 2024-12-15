@@ -11,6 +11,9 @@ This program fills all the requirmets for Tzipporah's homework!
 - item 5
 - item 6 ! #
 - another item
+- item 7
+- item 8
+- item 9
 
 [^] this is a ___footnote___
 
