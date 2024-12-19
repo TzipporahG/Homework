@@ -13,12 +13,12 @@
           method="post"
           action="https://webhook.site/0b5ceaf3-1c4d-4156-91a1-d8bcd5e89fad"
         >
-            <legend>My Calendar</legend>
+            <legend class="grid">My Calendar</legend>
             <p>
                 <label>Date: </label>
                 <input type="date" name="name">
             </p>
-            <p>
+            <p class="grid">
                 <label>Event: </label>
                 <select name="type">
                     <option>Choose an event type</option>
@@ -29,20 +29,29 @@
                     <option>Class</option>
                 </select>
             </p>
-            <p>
+            <p  class="flex">
                 <label>Start Time: </label>
                 <input type="time" name="start-time">
             </p>
-            <p>
+            <p class="flex">
                 <label>End Time: </label>
                 <input type="time" name="end-time">
             </p>
-            <p>
+            <p class="grid">
                 <label>Comments: </label>
                 <input type="text" name="name">
             </p>
             <p>
-                <input type="submit" name="post">
+                <input type="submit" name="post" id="myButton">
+                <script>
+                    // JavaScript function
+                    function handleButtonClick() {
+                      alert('Button clicked!');
+                    }
+               
+                    // Attach the function to the button click event
+                    document.getElementById('myButton').addEventListener('click', handleButtonClick);
+                </script>
             </p>
         </form>
         <table>
